@@ -160,8 +160,6 @@
 
 
 # -------------------------------
-# settings.py
-
 import os
 from pathlib import Path
 
@@ -171,7 +169,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-(pdmieu$ekfhyc8d-bxms1oxdt93@m7!qq!a-m^!4)zv$*42d6'
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# Allow your server's IP address or domain names
+ALLOWED_HOSTS = ['52.146.23.62', 'localhost', '127.0.0.1']
 
 # Application definition
 INSTALLED_APPS = [
